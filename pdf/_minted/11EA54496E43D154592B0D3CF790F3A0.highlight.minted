@@ -1,0 +1,24 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// Time Complexity: O(k log m)}
+\PYG{c+c1}{// a = a1 (mod m1), a = a2 (mod m2)를만족하는\PYGZob{}a, lcm(m1, m2)\PYGZcb{} 반환}
+\PYG{c+c1}{// 만약a가존재하면0 \PYGZlt{}= a \PYGZlt{} lcm(m1, m2) 에서유일하게존재}
+\PYG{c+c1}{// a가존재하지않는경우\PYGZob{}\PYGZhy{}1, \PYGZhy{}1\PYGZcb{} 반환}
+\PYG{n}{ll}\PYG{+w}{ }\PYG{n+nf}{mod}\PYG{p}{(}\PYG{n}{ll}\PYG{+w}{ }\PYG{n}{a}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{ll}\PYG{+w}{ }\PYG{n}{b}\PYG{p}{)\PYGZob{}}\PYG{+w}{ }\PYG{k}{return}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{a}\PYG{+w}{ }\PYG{o}{\PYGZpc{}=}\PYG{+w}{ }\PYG{n}{b}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{+w}{ }\PYG{o}{?}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{n}{a}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{b}\PYG{p}{;}\PYG{+w}{ }\PYG{p}{\PYGZcb{}}
+\PYG{n}{pair}\PYG{o}{\PYGZlt{}}\PYG{n}{ll}\PYG{p}{,}\PYG{n}{ll}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{crt}\PYG{p}{(}\PYG{n}{ll}\PYG{+w}{ }\PYG{n}{a1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{ll}\PYG{+w}{ }\PYG{n}{m1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{ll}\PYG{+w}{ }\PYG{n}{a2}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{ll}\PYG{+w}{ }\PYG{n}{m2}\PYG{p}{)\PYGZob{}}
+\PYG{n}{ll}\PYG{+w}{ }\PYG{n}{g}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{gcd}\PYG{p}{(}\PYG{n}{m1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{m2}\PYG{p}{),}\PYG{+w}{ }\PYG{n}{m}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{m1}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{n}{g}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{m2}\PYG{p}{;}
+\PYG{k}{if}\PYG{p}{((}\PYG{n}{a2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{a1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZpc{}}\PYG{+w}{ }\PYG{n}{g}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{return}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{\PYGZcb{};}
+\PYG{n}{ll}\PYG{+w}{ }\PYG{n}{md}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{m2}\PYG{o}{/}\PYG{n}{g}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{s}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{mod}\PYG{p}{((}\PYG{n}{a2}\PYG{o}{\PYGZhy{}}\PYG{n}{a1}\PYG{p}{)}\PYG{o}{/}\PYG{n}{g}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{m2}\PYG{o}{/}\PYG{n}{g}\PYG{p}{);}
+\PYG{n}{ll}\PYG{+w}{ }\PYG{n}{t}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{mod}\PYG{p}{(}\PYG{n}{get}\PYG{o}{\PYGZlt{}}\PYG{l+m+mi}{1}\PYG{o}{\PYGZgt{}}\PYG{p}{(}\PYG{n}{ext\PYGZus{}gcd}\PYG{p}{(}\PYG{n}{m1}\PYG{o}{/}\PYG{n}{g}\PYG{o}{\PYGZpc{}}\PYG{n}{md}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{m2}\PYG{o}{/}\PYG{n}{g}\PYG{p}{)),}\PYG{+w}{ }\PYG{n}{md}\PYG{p}{);}
+\PYG{k}{return}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{n}{a1}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{s}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{t}\PYG{+w}{ }\PYG{o}{\PYGZpc{}}\PYG{+w}{ }\PYG{n}{md}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{m1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{m}\PYG{+w}{ }\PYG{p}{\PYGZcb{};}
+\PYG{p}{\PYGZcb{}}
+\PYG{c+c1}{// a = a\PYGZus{}i (mod m\PYGZus{}i)를만족하는\PYGZob{}a, lcm(m\PYGZus{}1, ... , m\PYGZus{}k)\PYGZcb{} 반환}
+\PYG{c+c1}{// a가존재하지않는경우\PYGZob{}\PYGZhy{}1, \PYGZhy{}1\PYGZcb{} 반환}
+\PYG{n}{pair}\PYG{o}{\PYGZlt{}}\PYG{n}{ll}\PYG{p}{,}\PYG{n}{ll}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{crt}\PYG{p}{(}\PYG{k}{const}\PYG{+w}{ }\PYG{n}{vector}\PYG{o}{\PYGZlt{}}\PYG{n}{ll}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{a}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{const}\PYG{+w}{ }\PYG{n}{vector}\PYG{o}{\PYGZlt{}}\PYG{n}{ll}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{m}\PYG{p}{)\PYGZob{}}
+\PYG{n}{ll}\PYG{+w}{ }\PYG{n}{ra}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{a}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{rm}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{m}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{];}
+\PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{\PYGZlt{}}\PYG{n}{m}\PYG{p}{.}\PYG{n}{size}\PYG{p}{();}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)\PYGZob{}}
+\PYG{k}{auto}\PYG{+w}{ }\PYG{p}{[}\PYG{n}{aa}\PYG{p}{,}\PYG{n}{mm}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{crt}\PYG{p}{(}\PYG{n}{ra}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{rm}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{a}\PYG{p}{[}\PYG{n}{i}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{m}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]);}
+\PYG{k}{if}\PYG{p}{(}\PYG{n}{mm}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{return}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{\PYGZcb{};}\PYG{+w}{ }\PYG{k}{else}\PYG{+w}{ }\PYG{n}{tie}\PYG{p}{(}\PYG{n}{ra}\PYG{p}{,}\PYG{n}{rm}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{tie}\PYG{p}{(}\PYG{n}{aa}\PYG{p}{,}\PYG{n}{mm}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\PYG{k}{return}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{n}{ra}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{rm}\PYG{p}{\PYGZcb{};}
+\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}

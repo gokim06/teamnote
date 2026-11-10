@@ -1,0 +1,40 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// Time Complexity: O(V + E)}
+\PYG{k}{constexpr}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{SZ}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{101010}\PYG{p}{;}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{N}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{M}\PYG{p}{;}
+\PYG{n}{vector}\PYG{o}{\PYGZlt{}}\PYG{k+kt}{int}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{G}\PYG{p}{[}\PYG{n}{SZ}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{R}\PYG{p}{[}\PYG{n}{SZ}\PYG{p}{];}\PYG{+w}{ }\PYG{c+c1}{// G: 원래 그래프, R: 역방향 그래프}
+\PYG{n}{vector}\PYG{o}{\PYGZlt{}}\PYG{k+kt}{int}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{V}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// DFS1 종료 순서}
+\PYG{n}{vector}\PYG{o}{\PYGZlt{}}\PYG{n}{vector}\PYG{o}{\PYGZlt{}}\PYG{k+kt}{int}\PYG{o}{\PYGZgt{}\PYGZgt{}}\PYG{+w}{ }\PYG{n}{S}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// SCC별 정점 리스트}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{C}\PYG{p}{[}\PYG{n}{SZ}\PYG{p}{];}
+\PYG{c+c1}{// C[i]: i번정점이속한SCC 번호(0:미방문, \PYGZhy{}1:DFS1방문, 1이상:SCC ID)}
+\PYG{c+c1}{// 1. 간선추가(양방향저장)}
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{AddEdge}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{s}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{e}\PYG{p}{)\PYGZob{}}
+\PYG{n}{G}\PYG{p}{[}\PYG{n}{s}\PYG{p}{].}\PYG{n}{push\PYGZus{}back}\PYG{p}{(}\PYG{n}{e}\PYG{p}{);}\PYG{+w}{ }\PYG{n}{R}\PYG{p}{[}\PYG{n}{e}\PYG{p}{].}\PYG{n}{push\PYGZus{}back}\PYG{p}{(}\PYG{n}{s}\PYG{p}{);}\PYG{+w}{ }\PYG{p}{\PYGZcb{}}
+\PYG{c+c1}{// 2. 첫번째DFS: 종료순서대로V에담기(위상정렬순서파악)}
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{DFS1}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{v}\PYG{p}{)\PYGZob{}}
+\PYG{n}{C}\PYG{p}{[}\PYG{n}{v}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// 방문표시(임시)}
+\PYG{k}{for}\PYG{p}{(}\PYG{k}{auto}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{n}{G}\PYG{p}{[}\PYG{n}{v}\PYG{p}{])}\PYG{+w}{ }\PYG{k}{if}\PYG{p}{(}\PYG{o}{!}\PYG{n}{C}\PYG{p}{[}\PYG{n}{i}\PYG{p}{])}\PYG{+w}{ }\PYG{n}{DFS1}\PYG{p}{(}\PYG{n}{i}\PYG{p}{);}
+\PYG{n}{V}\PYG{p}{.}\PYG{n}{push\PYGZus{}back}\PYG{p}{(}\PYG{n}{v}\PYG{p}{);}\PYG{+w}{ }\PYG{c+c1}{// 끝나는순서대로넣음}
+\PYG{p}{\PYGZcb{}}
+\PYG{c+c1}{// 3. 두번째DFS: 역방향그래프에서묶기(SCC 형성)}
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{DFS2}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{v}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{c}\PYG{p}{)\PYGZob{}}
+\PYG{n}{C}\PYG{p}{[}\PYG{n}{v}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{c}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// SCC 번호부여}
+\PYG{n}{S}\PYG{p}{.}\PYG{n}{back}\PYG{p}{().}\PYG{n}{push\PYGZus{}back}\PYG{p}{(}\PYG{n}{v}\PYG{p}{);}\PYG{+w}{ }\PYG{c+c1}{// 현재SCC 그룹에추가}
+\PYG{k}{for}\PYG{p}{(}\PYG{k}{auto}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{n}{R}\PYG{p}{[}\PYG{n}{v}\PYG{p}{])}\PYG{+w}{ }\PYG{k}{if}\PYG{p}{(}\PYG{n}{C}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{DFS2}\PYG{p}{(}\PYG{n}{i}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{c}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n+nf}{GetSCC}\PYG{p}{()\PYGZob{}}
+\PYG{c+c1}{// 초기화(여러테스트케이스일경우필요)}
+\PYG{c+c1}{// S.clear(); V.clear(); memset(C, 0, sizeof(C));}
+\PYG{c+c1}{// Step 1: 정방향DFS로스택(V) 채우기}
+\PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{\PYGZlt{}=}\PYG{n}{N}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{if}\PYG{p}{(}\PYG{o}{!}\PYG{n}{C}\PYG{p}{[}\PYG{n}{i}\PYG{p}{])}\PYG{+w}{ }\PYG{n}{DFS1}\PYG{p}{(}\PYG{n}{i}\PYG{p}{);}
+\PYG{c+c1}{// Step 2: 스택을뒤집어서역방향DFS 수행}
+\PYG{n}{reverse}\PYG{p}{(}\PYG{n}{V}\PYG{p}{.}\PYG{n}{begin}\PYG{p}{(),}\PYG{+w}{ }\PYG{n}{V}\PYG{p}{.}\PYG{n}{end}\PYG{p}{());}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{cnt}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k}{for}\PYG{p}{(}\PYG{k}{auto}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{n}{V}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{k}{if}\PYG{p}{(}\PYG{n}{C}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{c+c1}{// DFS1에서방문했지만아직SCC 그룹이없는경우}
+\PYG{n}{S}\PYG{p}{.}\PYG{n}{emplace\PYGZus{}back}\PYG{p}{();}\PYG{+w}{ }\PYG{c+c1}{// 새로운SCC 그룹생성}
+\PYG{n}{DFS2}\PYG{p}{(}\PYG{n}{i}\PYG{p}{,}\PYG{+w}{ }\PYG{o}{++}\PYG{n}{cnt}\PYG{p}{);}
+\PYG{c+c1}{// SCC 번호는1번부터시작}
+\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{cnt}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// 총SCC 개수반환\PYGZcb{}}
+\end{MintedVerbatim}
