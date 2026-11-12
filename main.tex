@@ -12,6 +12,8 @@
 \usepackage{enumitem}
 \usepackage{multicol}
 \usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{tikz}
 
 \usepackage{teamnote}
 
@@ -40,6 +42,8 @@
 % \pagebreak
 
 \section{정렬 / 이분 탐색 관련}
+
+\Algorithm{이분탐색 / 매개변수탐색}{}{O(\log N)}{cpp}{code/sorting/binary_search.cpp}
 
 \Algorithm{정렬 비교 함수 구현}{Point 구조체의 연산자 오버로딩 또는 Compare 함수로 정렬 기준 지정}{-}{cpp}{code/sorting/custom_sort_comparator.cpp}
 
@@ -170,6 +174,56 @@
 \Algorithm{2-Dimensional Segment Tree - Iterative}{-}{-}{cpp}{code/data_structure/two_dimensional_segment_tree_iterative.cpp}
 
 \Algorithm{2-Dimensional Fenwick Tree}{-}{-}{cpp}{code/data_structure/two_dimensional_fenwick_tree.cpp}
+
+\section{template}
+
+\Algorithm{cpp template}{-}{-}{cpp}{code/template/cpptemplate.cpp}
+
+\subsection{Makefile}
+\input{code/template/makefile}
+
+\section{문제 풀이 체크리스트}
+
+\input{code/template/Checklist}
+
+\newpage
+\section{empty}
+
+\begin{center}
+    \includegraphics[width=0.7\linewidth]{image/arona.jpeg}
+\end{center}
+
+\begin{center}
+    \includegraphics[width=0.7\linewidth]{image/prana.jpeg}
+\end{center}
+
+\begin{center}
+    \includegraphics[width=0.5\linewidth]{image/hikari.jpg}
+\end{center}
+
+\begin{center}
+    \includegraphics[width=0.6\linewidth]{image/nojomi.jpg}
+\end{center}
+
+\begin{center}
+    \includegraphics[width=0.5\linewidth]{image/elysia.jpg}
+\end{center}
+
+\begin{center}
+    \includegraphics[width=0.8\linewidth]{image/kiana.jpeg}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[x=0.064\linewidth, y=0.064\linewidth]
+    % 가로(x): 0~14 (총 15개), 세로(y): 0~15 (총 16줄)
+    \foreach \y in {0,...,21} {
+        \foreach \x in {0,...,15} {
+            \node at (\x, -\y) {\includegraphics[width=0.055\linewidth]{image/doro.png}};
+        }
+    }
+\end{tikzpicture}
+\end{center}
+
 
 % \section{Notes}
 

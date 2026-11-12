@@ -1,0 +1,2798 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.11.10)  13 NOV 2026 01:17
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2026-11-01>
+L3 programming layer <2026-09-09>
+(c:/texlive/2026/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(c:/texlive/2026/texmf-dist/tex/latex/extsizes/size8.clo
+File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(c:/texlive/2026/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2025/12/24 v2.1j Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen150
+)
+\c@part=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen151
+)
+(c:/texlive/2026/texmf-dist/tex/latex/cjk-ko/kotex.sty
+Package: kotex 2015/04/19 v1.6 Korean TeX (ko.TeX)
+
+(c:/texlive/2026/texmf-dist/tex/latex/kotex-utf/kotex.cfg)
+(c:/texlive/2026/texmf-dist/tex/latex/kotex-utf/kotexutf.sty
+Package: kotexutf 2022/06/22 v3.0.0 typesetting UTF-8 Korean documents
+
+(c:/texlive/2026/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(c:/texlive/2026/texmf-dist/tex/plain/kotex-plain/kotexutf-core.tex
+\unih@ngulpoint=\count284
+\dhucs@emph@raise=\dimen152
+)
+Now handling font encoding LUC ...
+... processing UTF-8 mapping file for font encoding LUC
+
+(c:/texlive/2026/texmf-dist/tex/latex/kotex-utf/lucenc.dfu
+File: lucenc.dfu 2007/09/05 UTF-8 support for dhucs
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+3001 (decimal 12289)
+   defining Unicode char U+3002 (decimal 12290)
+   defining Unicode char U+3008 (decimal 12296)
+   defining Unicode char U+3009 (decimal 12297)
+   defining Unicode char U+300A (decimal 12298)
+   defining Unicode char U+300B (decimal 12299)
+   defining Unicode char U+300C (decimal 12300)
+   defining Unicode char U+300D (decimal 12301)
+   defining Unicode char U+300E (decimal 12302)
+   defining Unicode char U+300F (decimal 12303)
+   defining Unicode char U+3010 (decimal 12304)
+   defining Unicode char U+3011 (decimal 12305)
+   defining Unicode char U+3014 (decimal 12308)
+   defining Unicode char U+3015 (decimal 12309)
+   defining Unicode char U+3016 (decimal 12310)
+   defining Unicode char U+3017 (decimal 12311)
+   defining Unicode char U+3018 (decimal 12312)
+   defining Unicode char U+3019 (decimal 12313)
+   defining Unicode char U+301A (decimal 12314)
+   defining Unicode char U+301B (decimal 12315)
+   defining Unicode char U+FF01 (decimal 65281)
+   defining Unicode char U+FF08 (decimal 65288)
+   defining Unicode char U+FF09 (decimal 65289)
+   defining Unicode char U+FF0C (decimal 65292)
+   defining Unicode char U+FF0E (decimal 65294)
+   defining Unicode char U+FF1A (decimal 65306)
+   defining Unicode char U+FF1B (decimal 65307)
+   defining Unicode char U+FF1C (decimal 65308)
+   defining Unicode char U+FF1D (decimal 65309)
+   defining Unicode char U+FF1E (decimal 65310)
+   defining Unicode char U+FF1F (decimal 65311)
+   defining Unicode char U+FF3B (decimal 65339)
+   defining Unicode char U+FF3D (decimal 65341)
+   defining Unicode char U+FF5B (decimal 65371)
+   defining Unicode char U+FF5D (decimal 65373)
+   defining Unicode char U+FF61 (decimal 65377)
+   defining Unicode char U+FF62 (decimal 65378)
+   defining Unicode char U+FF63 (decimal 65379)
+   defining Unicode char U+FF64 (decimal 65380)
+   defining Unicode char U+FF65 (decimal 65381)
+)
+\@josa=\count285
+\josatoks=\toks19
+
+(c:/texlive/2026/texmf-dist/tex/latex/cjk-ko/kolabels-utf.sty
+Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
+)))
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks20
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2026-08-26 v2.18e AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2026/06/26 v2.01 AMS text
+
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen153
+))
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen154
+)
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count286
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count287
+\leftroot@=\count288
+LaTeX Info: Redefining \overline on input line 370.
+LaTeX Info: Redefining \colon on input line 381.
+\classnum@=\count289
+\DOTSCASE@=\count290
+LaTeX Info: Redefining \ldots on input line 467.
+LaTeX Info: Redefining \dots on input line 470.
+LaTeX Info: Redefining \cdots on input line 591.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 693.
+LaTeX Info: Redefining \Big on input line 694.
+LaTeX Info: Redefining \bigg on input line 695.
+LaTeX Info: Redefining \Bigg on input line 696.
+\big@size=\dimen155
+LaTeX Font Info:    Redeclaring font encoding OML on input line 714.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 715.
+\macc@depth=\count291
+LaTeX Info: Redefining \bmod on input line 876.
+LaTeX Info: Redefining \pmod on input line 881.
+LaTeX Info: Redefining \smash on input line 911.
+LaTeX Info: Redefining \relbar on input line 941.
+LaTeX Info: Redefining \Relbar on input line 942.
+\c@MaxMatrixCols=\count292
+\dotsspace@=\muskip17
+\c@parentequation=\count293
+\dspbrk@lvl=\count294
+\tag@help=\toks22
+\row@=\count295
+\column@=\count296
+\maxfields@=\count297
+\andhelp@=\toks23
+\eqnshift@=\dimen156
+\alignsep@=\dimen157
+\tagshift@=\dimen158
+\tagwidth@=\dimen159
+\totwidth@=\dimen160
+\lineht@=\dimen161
+\@envbody=\toks24
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2937.
+LaTeX Info: Redefining \] on input line 2938.
+)
+(c:/texlive/2026/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+)
+(c:/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\enitkv@toks@=\toks26
+\labelindent=\skip54
+\enit@outerparindent=\dimen162
+\enit@toks=\toks27
+\enit@inbox=\box55
+\enit@count@id=\count298
+\enitdp@description=\count299
+)
+(c:/texlive/2026/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2026/06/26 v2.0b multicolumn formatting (FMi)
+\c@tracingmulticols=\count300
+\mult@box=\box56
+\multicol@leftmargin=\dimen163
+\c@unbalance=\count301
+\c@collectmore=\count302
+\doublecol@number=\count303
+\multicoltolerance=\count304
+\multicolpretolerance=\count305
+\full@width=\dimen164
+\page@free=\dimen165
+\premulticols=\dimen166
+\postmulticols=\dimen167
+\multicolsep=\skip55
+\multicolbaselineskip=\skip56
+\partial@page=\box57
+\last@line=\box58
+\mc@boxedresult=\box59
+\maxbalancingoverflow=\dimen168
+\mult@rightbox=\box60
+\mult@grightbox=\box61
+\mult@firstbox=\box62
+\mult@gfirstbox=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\c@minrows=\count306
+\c@columnbadness=\count307
+\c@finalcolumnbadness=\count308
+\last@try=\dimen169
+\multicolovershoot=\dimen170
+\multicolundershoot=\dimen171
+\mult@nat@firstbox=\box100
+\colbreak@box=\box101
+\mc@col@check@num=\count309
+\g__mc_curr_col_int=\count310
+)
+(c:/texlive/2026/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box102
+\beforetitleunit=\skip57
+\aftertitleunit=\skip58
+\ttl@plus=\dimen172
+\ttl@minus=\dimen173
+\ttl@toksa=\toks28
+\titlewidth=\dimen174
+\titlewidthlast=\dimen175
+\titlewidthfirst=\dimen176
+)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2026-06-26 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2026-06-01 v1.15 key=value parser (DPC)
+\KV@toks@=\toks29
+)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen177
+\Gin@req@width=\dimen178
+)
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen179
+\pgfutil@tempdimb=\dimen180
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box103
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2026-08-01 v3.1.12 (3.1.12)
+))
+Package: pgf 2026-08-01 v3.1.12 (3.1.12)
+
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2026-08-01 v3.1.12 (3.1.12)
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.co
+de.tex
+\pgfkeys@tmptoks=\toks33
+))
+\pgf@x=\dimen181
+\pgf@y=\dimen182
+\pgf@xa=\dimen183
+\pgf@ya=\dimen184
+\pgf@xb=\dimen185
+\pgf@yb=\dimen186
+\pgf@xc=\dimen187
+\pgf@yc=\dimen188
+\pgf@xd=\dimen189
+\pgf@yd=\dimen190
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count311
+\c@pgf@countb=\count312
+\c@pgf@countc=\count313
+\c@pgf@countd=\count314
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
+\pgf@sys@id@count=\count315
+ (c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2026-08-01 v3.1.12 (3.1.12)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2026-08-01 v3.1.12 (3.1.12)
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2026-08-01 v3.1.12 (3.1.12)
+)))
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfsyssoftpath@smallbuffer@items=\count316
+\pgfsyssoftpath@bigbuffer@items=\count317
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)) (c:/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2026-08-01 v3.1.12 (3.1.12)
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen191
+\pgfmath@count=\count318
+\pgfmath@box=\box104
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count319
+))
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@picminx=\dimen192
+\pgf@picmaxx=\dimen193
+\pgf@picminy=\dimen194
+\pgf@picmaxy=\dimen195
+\pgf@pathminx=\dimen196
+\pgf@pathmaxx=\dimen197
+\pgf@pathminy=\dimen198
+\pgf@pathmaxy=\dimen199
+\pgf@xx=\dimen256
+\pgf@xy=\dimen257
+\pgf@yx=\dimen258
+\pgf@yy=\dimen259
+\pgf@zx=\dimen260
+\pgf@zy=\dimen261
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@path@lastx=\dimen262
+\pgf@path@lasty=\dimen263
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@shorten@end@additional=\dimen264
+\pgf@shorten@start@additional=\dimen265
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfpic=\box105
+\pgf@hbox=\box106
+\pgf@layerbox@main=\box107
+\pgf@picture@serial@count=\count320
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgflinewidth=\dimen266
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@pt@x=\dimen267
+\pgf@pt@y=\dimen268
+\pgf@pt@temp=\dimen269
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfarrowsep=\dimen270
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@max=\dimen271
+\pgf@sys@shading@range@num=\count321
+\pgf@shadingcount=\count322
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfexternal@startupbox=\box108
+) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2026-08-01 v3.1.12 (3.1.12)
+))) (c:/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+x
+File: pgfmoduleshapes.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfnodeparttextbox=\box109
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2026-08-01 v3.1.12 (3.1.12)
+\pgf@nodesepstart=\dimen272
+\pgf@nodesepend=\dimen273
+)
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2026-08-01 v3.1.12 (3.1.12)
+)) (c:/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2026-08-01 v3.1.12 (3.1.12)
+\pgffor@iter=\dimen274
+\pgffor@skip=\dimen275
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
+))
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2026-08-01 v3.1.12 (3.1.12)
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
+File: pgflibraryplothandlers.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@plot@mark@count=\count323
+\pgfplotmarksize=\dimen276
+)
+\tikz@lastx=\dimen277
+\tikz@lasty=\dimen278
+\tikz@lastxsaved=\dimen279
+\tikz@lastysaved=\dimen280
+\tikz@lastmovetox=\dimen281
+\tikz@lastmovetoy=\dimen282
+\tikzleveldistance=\dimen283
+\tikzsiblingdistance=\dimen284
+\tikz@figbox=\box110
+\tikz@figbox@bg=\box111
+\tikz@tempbox=\box112
+\tikz@tempbox@bg=\box113
+\tikztreelevel=\count324
+\tikznumberofchildren=\count325
+\tikznumberofcurrentchild=\count326
+\tikz@fig@count=\count327
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfmatrixcurrentrow=\count328
+\pgfmatrixcurrentcolumn=\count329
+\pgf@matrix@numberofcolumns=\count330
+)
+\tikz@expandcount=\count331
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2026-08-01 v3.1.12 (3.1.12)
+))) (./teamnote.sty
+Package: teamnote 
+
+(c:/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2026-06-01 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(c:/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count332
+)
+(c:/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+
+(c:/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(c:/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count333
+\Gm@cntv=\count334
+\c@Gm@tempcnt=\count335
+\Gm@bindingoffset=\dimen285
+\Gm@wd@mp=\dimen286
+\Gm@odd@mp=\dimen287
+\Gm@even@mp=\dimen288
+\Gm@layoutwidth=\dimen289
+\Gm@layoutheight=\dimen290
+\Gm@layouthoffset=\dimen291
+\Gm@layoutvoffset=\dimen292
+\Gm@dimlist=\toks42
+)
+(c:/texlive/2026/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip59
+\f@nch@offset@elh=\skip60
+\f@nch@offset@erh=\skip61
+\f@nch@offset@olh=\skip62
+\f@nch@offset@orh=\skip63
+\f@nch@offset@elf=\skip64
+\f@nch@offset@erf=\skip65
+\f@nch@offset@olf=\skip66
+\f@nch@offset@orf=\skip67
+\f@nch@height=\skip68
+\f@nch@footalignment=\skip69
+\f@nch@widthL=\skip70
+\f@nch@widthC=\skip71
+\f@nch@widthR=\skip72
+\@temptokenb=\toks43
+)
+(c:/texlive/2026/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2025/08/14 v2.1h lastpage: 2.09 or 2e? (HMM)
+
+(c:/texlive/2026/texmf-dist/tex/latex/lastpage/lastpage2e.sty
+Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (H
+MM)
+
+(c:/texlive/2026/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
+Package: lastpagemodern 2025-08-14 v2.1h Refers to last page's name (HMM; JPG)
+\c@lastpagecount=\count336
+) 
+)) (c:/texlive/2026/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2026/03/03 v3.8.0 Yet another Pygments shim for LaTeX
+
+(c:/texlive/2026/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(c:/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(c:/texlive/2026/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(c:/texlive/2026/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2026/02/25 v1.14.0 fvextra - extensions and patches for fancyv
+rb
+
+(c:/texlive/2026/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2026/10/20 4.8 verbatim text (tvz,hv)
+\c@FV@Env=\count337
+\FV@CodeLineNo=\count338
+\FV@InFile=\read3
+\FV@TabBox=\box114
+\c@FancyVerbLine=\count339
+\FV@StepNumber=\count340
+\FV@OutFile=\write4
+)
+(c:/texlive/2026/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(c:/texlive/2026/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2026/03/08 line numbers on paragraphs v5.9
+
+(c:/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(c:/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\linenopenalty=\count341
+\output=\toks44
+\linenoprevgraf=\count342
+\linenumbersep=\dimen293
+\linenumberwidth=\dimen294
+\c@linenumber=\count343
+\c@pagewiselinenumber=\count344
+\c@LN@truepage=\count345
+\c@internallinenumber=\count346
+\c@internallinenumbers=\count347
+\quotelinenumbersep=\dimen295
+\bframerule=\dimen296
+\bframesep=\dimen297
+\bframebox=\box115
+\@LN@amsmath@ams@eqpen=\count348
+)
+\c@FancyVerbWriteLine=\count349
+\c@FancyVerbBufferLine=\count350
+\c@FV@TrueTabGroupLevel=\count351
+\c@FV@TrueTabCounter=\count352
+\FV@TabBox@Group=\box116
+\FV@bgcolorstructbox=\box117
+\FV@TmpLength=\skip73
+\c@FV@HighlightLinesStart=\count353
+\c@FV@HighlightLinesStop=\count354
+\FV@LoopCount=\count355
+\FV@NCharsBox=\box118
+\FV@BreakIndent=\dimen298
+\FV@BreakIndentNChars=\count356
+\FV@BreakSymbolSepLeft=\dimen299
+\FV@BreakSymbolSepLeftNChars=\count357
+\FV@BreakSymbolSepRight=\dimen300
+\FV@BreakSymbolSepRightNChars=\count358
+\FV@BreakSymbolIndentLeft=\dimen301
+\FV@BreakSymbolIndentLeftNChars=\count359
+\FV@BreakSymbolIndentRight=\dimen302
+\FV@BreakSymbolIndentRightNChars=\count360
+\c@FancyVerbLineBreakLast=\count361
+\FV@LineBox=\box119
+\FV@LineIndentBox=\box120
+\c@FV@BreakBufferDepth=\count362
+\FV@LineWidth=\dimen303
+)
+(c:/texlive/2026/texmf-dist/tex/latex/latex2pydata/latex2pydata.sty
+Package: latex2pydata 2026/02/25 v0.7.0 latex2pydata - write data to file in Py
+thon literal format
+)
+(c:/texlive/2026/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks45
+\pgfopts@list@add@b@toks=\toks46
+)
+(c:/texlive/2026/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2026/06/26 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(c:/texlive/2026/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count363
+\float@exts=\toks47
+\float@box=\box121
+\@float@everytoks=\toks48
+\@floatcapt=\box122
+)
+\c@minted@FancyVerbLineTemp=\count364
+\@float@every@listing=\toks49
+\c@listing=\count365
+)
+(c:/texlive/2026/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+))
+(c:/texlive/2026/texmf-dist/tex/latex/l3kernel/l3backend-pdftex.def
+File: l3backend-pdftex.def 2026-09-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count366
+)
+(pdf/teamnote.aux)
+\openout1 = `teamnote.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 32.
+LaTeX Font Info:    Trying to load font information for LUC+nanummj on input li
+ne 32.
+
+(c:/texlive/2026/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
+File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
+)
+LaTeX Font Info:    ... okay on input line 32.
+
+(c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count367
+\scratchdimen=\dimen304
+\scratchbox=\box123
+\nofMPsegments=\count368
+\nofMParguments=\count369
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count370
+\MPscratchDim=\dimen305
+\MPnumerator=\count371
+\makeMPintoPDFobject=\count372
+\everyMPtoPDFconversion=\toks51
+) (c:/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: landscape 
+* h-part:(L,W,R)=(2.84544pt, 839.35596pt, 2.84544pt)
+* v-part:(T,H,B)=(8.5359pt, 586.12653pt, 2.84544pt)
+* \paperwidth=845.04684pt
+* \paperheight=597.50787pt
+* \textwidth=839.35596pt
+* \textheight=586.12653pt
+* \oddsidemargin=-69.42455pt
+* \evensidemargin=-69.42455pt
+* \topmargin=-75.73409pt
+* \headheight=12.0pt
+* \headsep=0.0pt
+* \topskip=9.0pt
+* \footskip=30.0pt
+* \marginparwidth=144.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=7.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(pdf/teamnote.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+ (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write5
+\openout5 = `teamnote.toc'.
+
+\pydata@fh@0=\write6
+\openout6 = `_AD298020C715061E569F61B63BE1317B.data.minted'.
+
+runsystem(latexminted config  --timestamp 20261113011721 AD298020C715061E569F61
+B63BE1317B)...executed.
+
+
+(pdf/_AD298020C715061E569F61B63BE1317B.config.minted)
+runsystem(latexminted cleanconfig  --timestamp 20261113011721 AD298020C715061E5
+69F61B63BE1317B)...executed.
+
+
+(./pdf/_minted/perldoc.style.minted)
+(./pdf/_minted/97F1C237C72FB69277536647A79AA46E.highlight.minted
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
+LaTeX Font Info:    Trying to load font information for LUC+nanumgt on input li
+ne 17.
+
+(c:/texlive/2026/texmf-dist/tex/latex/nanumtype1/lucnanumgt.fd
+File: lucnanumgt.fd 2013/02/12 v0.1 Nanum Gothic font definitions
+) [1{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+])
+Missing character: There is no ¥ in font cmr8!
+Missing character: There is no  in font cmr8!
+Missing character: There is no ∞ in font cmr8!
+Missing character: There is no ê in font cmr8!
+Missing character: There is no Ñ in font cmr8!
+Missing character: There is no î in font cmr8!
+Missing character: There is no ¿ in font cmr8!
+(./pdf/_minted/E50A5E4EE95EE284C5DFA851BAE3F765.highlight.minted)
+Missing character: There is no – in font cmr8!
+Missing character: There is no å in font cmr8!
+Missing character: There is no å in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ¿ in font cmr8!
+Missing character: There is no î in font cmr8!
+Missing character: There is no ï in font cmr8!
+(./pdf/_minted/6F5C1B3C397CF60522829A906ECBAEEE.highlight.minted)
+Missing character: There is no î in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ú in font cmr8!
+(./pdf/_minted/D59A84F0E9339EDD218BDDF3F1961F7C.highlight.minted)
+Missing character: There is no î in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ú in font cmr8!
+(./pdf/_minted/E5BC5106C2DA9B3D971D641969A879DA.highlight.minted)
+Missing character: There is no ∆ in font cmr8!
+Missing character: There is no î in font cmr8!
+Missing character: There is no ¯ in font cmr8!
+Missing character: There is no ò in font cmr8!
+Missing character: There is no – in font cmr8!
+Missing character: There is no ‹ in font cmr8!
+Missing character: There is no ë in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ê in font cmr8!
+Missing character: There is no ú in font cmr8!
+(./pdf/_minted/B47796FA6D31DC0B96A9ECB014FF4D48.highlight.minted [2])
+Missing character: There is no î in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ‹ in font cmr8!
+Missing character: There is no ë in font cmr8!
+Missing character: There is no ê in font cmr8!
+Missing character: There is no ú in font cmr8!
+(./pdf/_minted/4342C91C06C32BFF3F076326117842D1.highlight.minted)
+Missing character: There is no » in font cmr8!
+Missing character: There is no ‹ in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no § in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no  in font cmr8!
+Missing character: There is no ∞ in font cmr8!
+Missing character: There is no » in font cmr8!
+Missing character: There is no ‰ in font cmr8!
+(./pdf/_minted/8D520ED3992E4953D9A77B3E013EE91E.highlight.minted)
+Missing character: There is no – in font cmr8!
+Missing character: There is no å in font cmr8!
+Missing character: There is no ¿ in font cmr8!
+Missing character: There is no Ω in font cmr8!
+Missing character: There is no ‡ in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ∞ in font cmr8!
+(./pdf/_minted/BDAAC798BAFC08A1F30E5FCBC1968306.highlight.minted)
+Missing character: There is no – in font cmr8!
+Missing character: There is no ‡ in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ∞ in font cmr8!
+(./pdf/_minted/BA6F0F0F985A27FB048F848B332F09EC.highlight.minted)
+Missing character: There is no – in font cmr8!
+Missing character: There is no ‡ in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ∞ in font cmr8!
+(./pdf/_minted/DC773E6B7DE1B063261953096D5F9FFC.highlight.minted [3])
+Missing character: There is no à in font cmr8!
+Missing character: There is no ¯ in font cmr8!
+Missing character: There is no – in font cmr8!
+Missing character: There is no å in font cmr8!
+Missing character: There is no – in font cmr8!
+Missing character: There is no … in font cmr8!
+Missing character: There is no π in font cmr8!
+Missing character: There is no – in font cmr8!
+Missing character: There is no å in font cmr8!
+Missing character: There is no Ù in font cmr8!
+Missing character: There is no ‰ in font cmr8!
+Missing character: There is no ë in font cmr8!
+Missing character: There is no – in font cmr8!
+Missing character: There is no å in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ∞ in font cmr8!
+(./pdf/_minted/81E0239E7D0ECEBD4374B63FD699373E.highlight.minted)
+Missing character: There is no ¨ in font cmr8!
+Missing character: There is no © in font cmr8!
+Missing character: There is no – in font cmr8!
+Missing character: There is no ú in font cmr8!
+(./pdf/_minted/468CE7A864D9A945F2D97262FDBF62CC.highlight.minted)
+Missing character: There is no • in font cmr8!
+Missing character: There is no Ö in font cmr8!
+Missing character: There is no Ã in font cmr8!
+Missing character: There is no • in font cmr8!
+Missing character: There is no § in font cmr8!
+Missing character: There is no Ì in font cmr8!
+Missing character: There is no • in font cmr8!
+(./pdf/_minted/9EF8F9C39B1C58B3EBBEEBFB51F7DB8E.highlight.minted [4])
+Missing character: There is no î in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ‰ in font cmr8!
+Missing character: There is no ë in font cmr8!
+Missing character: There is no ≈ in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no – in font cmr8!
+Missing character: There is no ú in font cmr8!
+(./pdf/_minted/E05600E19969437B3D5A6BF733F0CEE7.highlight.minted)
+Missing character: There is no – in font cmr8!
+Missing character: There is no … in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ∞ in font cmr8!
+Missing character: There is no ® in font cmr8!
+Missing character: There is no ‡ in font cmr8!
+Missing character: There is no © in font cmr8!
+Missing character: There is no … in font cmr8!
+(./pdf/_minted/EC6C19C8BA8F8A421E8A7EE48045B66E.highlight.minted [5])
+(./pdf/_minted/65E66AED42E03DF7316B556D151048B1.highlight.minted)
+(./pdf/_minted/9A8A2182B3A9528CDBA25E653730C57C.highlight.minted [6])
+Missing character: There is no î in font cmr8!
+Missing character: There is no – in font cmr8!
+Missing character: There is no ò in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no Ω in font cmr8!
+Missing character: There is no ¸ in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no ò in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+Missing character: There is no ¸ in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+(./pdf/_minted/7901BE5466DFBBF93E2D6BC4157A6883.highlight.minted [7])
+(./pdf/_minted/ACC7B727E4553C057682CB9660A2E3C8.highlight.minted)
+Missing character: There is no å in font cmr8!
+Missing character: There is no Ò in font cmr8!
+Missing character: There is no ò in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+Missing character: There is no ò in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+Missing character: There is no ¸ in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+(./pdf/_minted/BD3FFC74DAF4C53B0D69A94D5D3985C5.highlight.minted [8])
+Missing character: There is no • in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+Missing character: There is no ‹ in font cmr8!
+Missing character: There is no ‡ in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+Missing character: There is no ò in font cmr8!
+Missing character: There is no ı in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ∞ in font cmr8!
+(./pdf/_minted/5665455D29543A35ABB038785514CA76.highlight.minted)
+Missing character: There is no • in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+Missing character: There is no ‹ in font cmr8!
+Missing character: There is no ‡ in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+Missing character: There is no ò in font cmr8!
+Missing character: There is no © in font cmr8!
+Missing character: There is no  in font cmr8!
+Missing character: There is no Ω in font cmr8!
+Missing character: There is no Ÿ in font cmr8!
+Missing character: There is no › in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ∞ in font cmr8!
+(./pdf/_minted/11EA54496E43D154592B0D3CF790F3A0.highlight.minted)
+(./pdf/_minted/5C431EDA44007B9A27CFE0FC6C31804C.highlight.minted
+Missing character: There is no ^^R in font nanumgtm22!
+Missing character: There is no ^^R in font nanumgtm22!
+Missing character: There is no ^^R in font nanumgtm22!
+Missing character: There is no ^^R in font nanumgtm22!
+Missing character: There is no ^^R in font nanumgtm22!
+Missing character: There is no ^^R in font nanumgtm22!
+Missing character: There is no ^^R in font nanumgtm22!
+Missing character: There is no ^^R in font nanumgtm22!
+)
+Missing character: There is no ò in font cmr8!
+Missing character: There is no – in font cmr8!
+Missing character: There is no ú in font cmr8!
+(./pdf/_minted/6A481C131B991321EC50BAC23B422E0D.highlight.minted [9])
+(./pdf/_minted/B2F2F213A96DEF9076575DAA7D3A96F7.highlight.minted)
+Missing character: There is no ‰ in font cmr8!
+Missing character: There is no › in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ∞ in font cmr8!
+Missing character: There is no ® in font cmr8!
+Missing character: There is no » in font cmr8!
+Missing character: There is no Ï in font cmr8!
+Missing character: There is no  in font cmr8!
+Missing character: There is no ∞ in font cmr8!
+Missing character: There is no â in font cmr8!
+(./pdf/_minted/AD917BC9FD565F75F1BE58E960D51109.highlight.minted [10])
+Missing character: There is no ê in font cmr8!
+Missing character: There is no Ù in font cmr8!
+Missing character: There is no ò in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+Missing character: There is no Ä in font cmr8!
+Missing character: There is no Ñ in font cmr8!
+Missing character: There is no ê in font cmr8!
+Missing character: There is no Ù in font cmr8!
+Missing character: There is no ‹ in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ∞ in font cmr8!
+(./pdf/_minted/5D6F47A00812B68602D72FA2DDA606B1.highlight.minted)
+Missing character: There is no ê in font cmr8!
+Missing character: There is no Ù in font cmr8!
+Missing character: There is no – in font cmr8!
+Missing character: There is no Ò in font cmr8!
+Missing character: There is no • in font cmr8!
+Missing character: There is no î in font cmr8!
+(./pdf/_minted/5A24AC8A3B86158C554D157D453E54B4.highlight.minted)
+Missing character: There is no ê in font cmr8!
+Missing character: There is no Ï in font cmr8!
+Missing character: There is no î in font cmr8!
+Missing character: There is no • in font cmr8!
+Missing character: There is no ∞ in font cmr8!
+Missing character: There is no ‹ in font cmr8!
+Missing character: There is no Ω in font cmr8!
+(./pdf/_minted/36805ACAD9EEA4F7F4611D56CA0CF359.highlight.minted)
+Missing character: There is no ¸ in font cmr8!
+Missing character: There is no • in font cmr8!
+Missing character: There is no ı in font cmr8!
+Missing character: There is no µ in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ∞ in font cmr8!
+(./pdf/_minted/F5F86261153EA46FEBB3525590EE772C.highlight.minted [11])
+Missing character: There is no ¯ in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+Missing character: There is no Ù in font cmr8!
+Missing character: There is no ¸ in font cmr8!
+Missing character: There is no Ù in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ∞ in font cmr8!
+(./pdf/_minted/DF1D187B9F087F3DA2A9358DFC79299E.highlight.minted)
+(./pdf/_minted/138CC2AD7531EB3CB78D49C16C9F4B12.highlight.minted)
+(./pdf/_minted/EEDEDABA56ED8DBABF3BA2B9DE7A6CDB.highlight.minted)
+(./pdf/_minted/2977802DF78A07341F78CEB6805AAA2C.highlight.minted)
+(./pdf/_minted/30692F9E5CF0C5328A85DE79A1D2E758.highlight.minted [12])
+Missing character: There is no ‰ in font cmr8!
+Missing character: There is no ¥ in font cmr8!
+Missing character: There is no Ä in font cmr8!
+Missing character: There is no î in font cmr8!
+Missing character: There is no Ω in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no – in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no î in font cmr8!
+Missing character: There is no ¿ in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+(./pdf/_minted/1542910B80E3C93C6CB8C5925D0C5E58.highlight.minted)
+Missing character: There is no ® in font cmr8!
+Missing character: There is no ‡ in font cmr8!
+Missing character: There is no Ï in font cmr8!
+Missing character: There is no î in font cmr8!
+Missing character: There is no • in font cmr8!
+Missing character: There is no ë in font cmr8!
+Missing character: There is no ¸ in font cmr8!
+Missing character: There is no ‰ in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ∞ in font cmr8!
+(./pdf/_minted/013D89F7D35F4984C3EA904E3036530B.highlight.minted)
+Missing character: There is no ‹ in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no • in font cmr8!
+Missing character: There is no ¸ in font cmr8!
+Missing character: There is no ‰ in font cmr8!
+Missing character: There is no Ö in font cmr8!
+Missing character: There is no • in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ∞ in font cmr8!
+(./pdf/_minted/2CBCFE704CA63A39909582EA13E3CFD1.highlight.minted)
+Missing character: There is no ‹ in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no • in font cmr8!
+Missing character: There is no ¸ in font cmr8!
+Missing character: There is no ‰ in font cmr8!
+Missing character: There is no – in font cmr8!
+Missing character: There is no ¥ in font cmr8!
+Missing character: There is no Ä in font cmr8!
+Missing character: There is no î in font cmr8!
+Missing character: There is no Ω in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no – in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no î in font cmr8!
+Missing character: There is no ¿ in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+(./pdf/_minted/9908CFA7D9FFE398CD9DCA7D2A76CED4.highlight.minted)
+Missing character: There is no • in font cmr8!
+Missing character: There is no ù in font cmr8!
+Missing character: There is no î in font cmr8!
+Missing character: There is no Ä in font cmr8!
+Missing character: There is no Ñ in font cmr8!
+Missing character: There is no Ù in font cmr8!
+(./pdf/_minted/A472FA438CAD640A0A8D09BDCBBBDB59.highlight.minted)
+Missing character: There is no ü in font cmr8!
+Missing character: There is no î in font cmr8!
+Missing character: There is no – in font cmr8!
+Missing character: There is no … in font cmr8!
+(./pdf/_minted/E84F921035D0203C24DCEFF832CCEB65.highlight.minted)
+(./pdf/_minted/0444FC1156F2AA42B2B1C1888CCB2B4F.highlight.minted [13])
+Missing character: There is no Ä in font cmr8!
+Missing character: There is no å in font cmr8!
+Missing character: There is no Ö in font cmr8!
+(./pdf/_minted/D20B6CEF94AA6F21D64DC5132AEEBD86.highlight.minted)
+(./pdf/_minted/E242FFCDF6B98FB459FBEDDFD0219A81.highlight.minted)
+(./pdf/_minted/357FB5F9EB99C081F20A4F010475C714.highlight.minted)
+Missing character: There is no ò in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+Missing character: There is no ƒ in font cmr8!
+Missing character: There is no ¸ in font cmr8!
+Missing character: There is no ¨ in font cmr8!
+Missing character: There is no â in font cmr8!
+[14] (./pdf/_minted/FCA4642D94AF55E9C854D1A6A2A34A26.highlight.minted)
+(./pdf/_minted/9D216C64CB652D51D9EAF886ACDB62D8.highlight.minted)
+(./pdf/_minted/2478A244D6605AF44C258231957DE035.highlight.minted
+Missing character: There is no ^^R in font nanumgtm22!
+Missing character: There is no ^^R in font nanumgtm22!
+Missing character: There is no ^^R in font nanumgtm22!
+Missing character: There is no ^^R in font nanumgtm22!
+) (./pdf/_minted/49EAFBFFA5C9711752019DE5D9221A2C.highlight.minted [15])
+(./pdf/_minted/27ECC0BF996D284C336CF9A58BD4EA77.highlight.minted)
+(./pdf/_minted/E152C74003FFA40F6B1ECAE82BC01C9E.highlight.minted [16])
+(./pdf/_minted/EEB2C3132C182EB9EC5B6D0361FF1629.highlight.minted)
+(./pdf/_minted/39BDB5502AE8F15A409D422AAA4CE479.highlight.minted)
+(./pdf/_minted/3B9EB4F9419FCCD8D9F668A37183AD0E.highlight.minted [17])
+(./code/template/makefile.tex
+(./pdf/_minted/0531E5D440C88E1FD1532CCF4522FE9A.highlight.minted))
+(./code/template/Checklist.tex) [18]
+<image/arona.jpeg, id=187, 448.67625pt x 448.67625pt>
+File: image/arona.jpeg Graphic file (type jpg)
+<use image/arona.jpeg>
+Package pdftex.def Info: image/arona.jpeg  used on input line 193.
+(pdftex.def)             Requested size: 290.27332pt x 290.28055pt.
+<image/prana.jpeg, id=188, 469.755pt x 656.4525pt>
+File: image/prana.jpeg Graphic file (type jpg)
+<use image/prana.jpeg>
+Package pdftex.def Info: image/prana.jpeg  used on input line 197.
+(pdftex.def)             Requested size: 290.27332pt x 405.63408pt.
+<image/hikari.jpg, id=189, 250.9375pt x 250.9375pt>
+File: image/hikari.jpg Graphic file (type jpg)
+<use image/hikari.jpg>
+Package pdftex.def Info: image/hikari.jpg  used on input line 201.
+(pdftex.def)             Requested size: 207.33899pt x 207.34761pt.
+<image/nojomi.jpg, id=190, 825.0825pt x 1204.5pt>
+File: image/nojomi.jpg Graphic file (type jpg)
+<use image/nojomi.jpg>
+Package pdftex.def Info: image/nojomi.jpg  used on input line 205.
+(pdftex.def)             Requested size: 248.80931pt x 363.20909pt.
+ [19 <./image/arona.jpeg> <./image/prana.jpeg>]
+<image/elysia.jpg, id=195, 250.9375pt x 250.9375pt>
+File: image/elysia.jpg Graphic file (type jpg)
+<use image/elysia.jpg>
+Package pdftex.def Info: image/elysia.jpg  used on input line 209.
+(pdftex.def)             Requested size: 207.33899pt x 207.34761pt.
+<image/kiana.jpeg, id=196, 447.6725pt x 689.57625pt>
+File: image/kiana.jpeg Graphic file (type jpg)
+<use image/kiana.jpeg>
+Package pdftex.def Info: image/kiana.jpeg  used on input line 213.
+(pdftex.def)             Requested size: 331.74364pt x 511.01497pt.
+ [20 <./image/hikari.jpg> <./image/nojomi.jpg> <./image/elysia.jpg>]
+<image/doro.png, id=200, 156.585pt x 140.77594pt>
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+File: image/doro.png Graphic file (type png)
+<use image/doro.png>
+Package pdftex.def Info: image/doro.png  used on input line 223.
+(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+
+Overfull \hbox (11.8543pt too wide) in paragraph at lines 224--225
+ [] 
+ []
+
+[21 <./image/kiana.jpeg> <./image/doro.png>]
+
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(pdf/teamnote.aux)
+ ***********
+LaTeX2e <2026-11-01>
+L3 programming layer <2026-09-09>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 21584 strings out of 468449
+ 476911 string characters out of 5442069
+ 1138255 words of memory out of 5000000
+ 50172 multiletter control sequences out of 15000+600000
+ 680899 words of font info for 220 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 101i,13n,107p,915b,1423s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <c:/Users/gokim/.texlive2026/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.
+600pk> <c:/Users/gokim/.texlive2026/texmf-var/fonts/pk/ljfour/jknappen/ec/tctt0
+800.600pk><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texli
+ve/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2026/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2026/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c
+:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/
+2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtm22.pfb><c:/texlive/2026/t
+exmf-dist/fonts/type1/public/nanumtype1/nanumgtmac.pfb><c:/texlive/2026/texmf-d
+ist/fonts/type1/public/nanumtype1/nanumgtmad.pfb><c:/texlive/2026/texmf-dist/fo
+nts/type1/public/nanumtype1/nanumgtmae.pfb><c:/texlive/2026/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanumgtmaf.pfb><c:/texlive/2026/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanumgtmb0.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/n
+anumtype1/nanumgtmb1.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumty
+pe1/nanumgtmb2.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/na
+numgtmb3.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtm
+b4.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb5.pfb
+><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb6.pfb><c:/t
+exlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb7.pfb><c:/texlive
+/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb8.pfb><c:/texlive/2026/
+texmf-dist/fonts/type1/public/nanumtype1/nanumgtmb9.pfb><c:/texlive/2026/texmf-
+dist/fonts/type1/public/nanumtype1/nanumgtmba.pfb><c:/texlive/2026/texmf-dist/f
+onts/type1/public/nanumtype1/nanumgtmbb.pfb><c:/texlive/2026/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanumgtmbc.pfb><c:/texlive/2026/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanumgtmbd.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/
+nanumtype1/nanumgtmbe.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumt
+ype1/nanumgtmc0.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/n
+anumgtmc1.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgt
+mc2.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc5.pf
+b><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc6.pfb><c:/
+texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc7.pfb><c:/texliv
+e/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc8.pfb><c:/texlive/2026
+/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc9.pfb><c:/texlive/2026/texmf
+-dist/fonts/type1/public/nanumtype1/nanumgtmca.pfb><c:/texlive/2026/texmf-dist/
+fonts/type1/public/nanumtype1/nanumgtmcc.pfb><c:/texlive/2026/texmf-dist/fonts/
+type1/public/nanumtype1/nanumgtmcd.pfb><c:/texlive/2026/texmf-dist/fonts/type1/
+public/nanumtype1/nanumgtmce.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public
+/nanumtype1/nanumgtmcf.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanum
+type1/nanumgtmd0.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/
+nanumgtmd1.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumg
+tmd2.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd3.p
+fb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd4.pfb><c:
+/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd5.pfb><c:/texli
+ve/2026/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd6.pfb><c:/texlive/202
+6/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd7.pfb><c:/texlive/2026/texm
+f-dist/fonts/type1/public/nanumtype1/nanummjbac.pfb><c:/texlive/2026/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjbad.pfb><c:/texlive/2026/texmf-dist/fonts
+/type1/public/nanumtype1/nanummjbae.pfb><c:/texlive/2026/texmf-dist/fonts/type1
+/public/nanumtype1/nanummjbb0.pfb><c:/texlive/2026/texmf-dist/fonts/type1/publi
+c/nanumtype1/nanummjbb1.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanu
+mtype1/nanummjbb2.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1
+/nanummjbb3.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanum
+mjbb4.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb7.
+pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb8.pfb><c
+:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb9.pfb><c:/texl
+ive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbba.pfb><c:/texlive/20
+26/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbb.pfb><c:/texlive/2026/tex
+mf-dist/fonts/type1/public/nanumtype1/nanummjbbc.pfb><c:/texlive/2026/texmf-dis
+t/fonts/type1/public/nanumtype1/nanummjbbd.pfb><c:/texlive/2026/texmf-dist/font
+s/type1/public/nanumtype1/nanummjbbe.pfb><c:/texlive/2026/texmf-dist/fonts/type
+1/public/nanumtype1/nanummjbc0.pfb><c:/texlive/2026/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanummjbc1.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nan
+umtype1/nanummjbc2.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjbc5.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanu
+mmjbc6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7
+.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb><
+c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc9.pfb><c:/tex
+live/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcc.pfb><c:/texlive/2
+026/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcd.pfb><c:/texlive/2026/te
+xmf-dist/fonts/type1/public/nanumtype1/nanummjbce.pfb><c:/texlive/2026/texmf-di
+st/fonts/type1/public/nanumtype1/nanummjbd0.pfb><c:/texlive/2026/texmf-dist/fon
+ts/type1/public/nanumtype1/nanummjbd1.pfb><c:/texlive/2026/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanummjbd2.pfb><c:/texlive/2026/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanummjbd3.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/na
+numtype1/nanummjbd4.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtyp
+e1/nanummjbd5.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nan
+ummjbd6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjma
+c.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb>
+<c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb><c:/te
+xlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb><c:/texlive/
+2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb><c:/texlive/2026/t
+exmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb><c:/texlive/2026/texmf-d
+ist/fonts/type1/public/nanumtype1/nanummjmb3.pfb><c:/texlive/2026/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjmb4.pfb><c:/texlive/2026/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanummjmb5.pfb><c:/texlive/2026/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanummjmb6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/n
+anumtype1/nanummjmb7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumty
+pe1/nanummjmb8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjmb9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
+ba.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb
+><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/t
+exlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb><c:/texlive
+/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb><c:/texlive/2026/
+texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2026/texmf-
+dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb><c:/texlive/2026/texmf-dist/f
+onts/type1/public/nanumtype1/nanummjmc2.pfb><c:/texlive/2026/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanummjmc4.pfb><c:/texlive/2026/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanummjmc5.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/
+nanumtype1/nanummjmc6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumt
+ype1/nanummjmc7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjmc8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummj
+mc9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pf
+b><c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb><c:/
+texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb><c:/texliv
+e/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb><c:/texlive/2026
+/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb><c:/texlive/2026/texmf
+-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb><c:/texlive/2026/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjmd3.pfb><c:/texlive/2026/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjmd4.pfb><c:/texlive/2026/texmf-dist/fonts/type1/
+public/nanumtype1/nanummjmd5.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjmd6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanum
+type1/nanummjmd7.pfb>
+Output written on pdf/teamnote.pdf (21 pages, 6148844 bytes).
+PDF statistics:
+ 716 PDF objects out of 1000 (max. 8388607)
+ 429 compressed objects within 5 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+

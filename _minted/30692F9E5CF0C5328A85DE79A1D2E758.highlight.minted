@@ -1,0 +1,30 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// 선분교차\PYGZhy{} 선분ab와선분cd가만나면true}
+\PYG{k+kt}{bool}\PYG{+w}{ }\PYG{n+nf}{Cross}\PYG{p}{(}\PYG{n}{Point}\PYG{+w}{ }\PYG{n}{s1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Point}\PYG{+w}{ }\PYG{n}{e1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Point}\PYG{+w}{ }\PYG{n}{s2}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Point}\PYG{+w}{ }\PYG{n}{e2}\PYG{p}{)\PYGZob{}}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{ab}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CCW}\PYG{p}{(}\PYG{n}{s1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{e1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{s2}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{CCW}\PYG{p}{(}\PYG{n}{s1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{e1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{e2}\PYG{p}{);}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{cd}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CCW}\PYG{p}{(}\PYG{n}{s2}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{e2}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{s1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{CCW}\PYG{p}{(}\PYG{n}{s2}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{e2}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{e1}\PYG{p}{);}
+\PYG{k}{if}\PYG{p}{(}\PYG{n}{ab}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{n}{cd}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)\PYGZob{}}
+\PYG{k}{if}\PYG{p}{(}\PYG{n}{s1}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{e1}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{swap}\PYG{p}{(}\PYG{n}{s1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{e1}\PYG{p}{);}
+\PYG{k}{if}\PYG{p}{(}\PYG{n}{s2}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{e2}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{swap}\PYG{p}{(}\PYG{n}{s2}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{e2}\PYG{p}{);}
+\PYG{k}{return}\PYG{+w}{ }\PYG{o}{!}\PYG{p}{(}\PYG{n}{e1}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{s2}\PYG{+w}{ }\PYG{o}{||}\PYG{+w}{ }\PYG{n}{e2}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{s1}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\PYG{k}{return}\PYG{+w}{ }\PYG{n}{ab}\PYG{+w}{ }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{+w}{ }\PYG{o}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{n}{cd}\PYG{+w}{ }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\PYG{c+c1}{// 교차하지않으면0}
+\PYG{c+c1}{// 교점이무한히많으면\PYGZhy{}1}
+\PYG{c+c1}{// 교점이1개면1 반환하고res에교점저장}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n+nf}{Cross}\PYG{p}{(}\PYG{n}{Point}\PYG{+w}{ }\PYG{n}{s1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Point}\PYG{+w}{ }\PYG{n}{e1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Point}\PYG{+w}{ }\PYG{n}{s2}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Point}\PYG{+w}{ }\PYG{n}{e2}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{pair}\PYG{o}{\PYGZlt{}}\PYG{k+kt}{double}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{double}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{res}\PYG{p}{)\PYGZob{}}
+\PYG{k}{if}\PYG{p}{(}\PYG{o}{!}\PYG{n}{Cross}\PYG{p}{(}\PYG{n}{s1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{e1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{s2}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{e2}\PYG{p}{))}\PYG{+w}{ }\PYG{k}{return}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{n}{ll}\PYG{+w}{ }\PYG{n}{det}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{e1}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{s1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{e2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{s2}\PYG{p}{);}
+\PYG{k}{if}\PYG{p}{(}\PYG{o}{!}\PYG{n}{det}\PYG{p}{)\PYGZob{}}
+\PYG{k}{if}\PYG{p}{(}\PYG{n}{s1}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{e1}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{swap}\PYG{p}{(}\PYG{n}{s1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{e1}\PYG{p}{);}
+\PYG{k}{if}\PYG{p}{(}\PYG{n}{s2}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{e2}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{swap}\PYG{p}{(}\PYG{n}{s2}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{e2}\PYG{p}{);}
+\PYG{k}{if}\PYG{p}{(}\PYG{n}{e1}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{s2}\PYG{p}{)\PYGZob{}}\PYG{+w}{ }\PYG{n}{res}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{s2}\PYG{p}{;}\PYG{+w}{ }\PYG{k}{return}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{ }\PYG{p}{\PYGZcb{}}
+\PYG{k}{if}\PYG{p}{(}\PYG{n}{e2}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{s1}\PYG{p}{)\PYGZob{}}\PYG{+w}{ }\PYG{n}{res}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{s1}\PYG{p}{;}\PYG{+w}{ }\PYG{k}{return}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{ }\PYG{p}{\PYGZcb{}}
+\PYG{k}{return}\PYG{+w}{ }\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\PYG{n}{res}\PYG{p}{.}\PYG{n}{x}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{s1}\PYG{p}{.}\PYG{n}{x}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{e1}\PYG{p}{.}\PYG{n}{x}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{s1}\PYG{p}{.}\PYG{n}{x}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{p}{((}\PYG{n}{s2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{s1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{e2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{s2}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{l+m+mf}{1.0}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{n}{det}\PYG{p}{);}
+\PYG{n}{res}\PYG{p}{.}\PYG{n}{y}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{s1}\PYG{p}{.}\PYG{n}{y}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{e1}\PYG{p}{.}\PYG{n}{y}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{s1}\PYG{p}{.}\PYG{n}{y}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{p}{((}\PYG{n}{s2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{s1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{e2}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{s2}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{l+m+mf}{1.0}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{n}{det}\PYG{p}{);}
+\PYG{k}{return}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}

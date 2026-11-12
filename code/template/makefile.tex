@@ -1,0 +1,18 @@
+\begin{minted}{makefile}
+CXX := g++
+CPPFLAGS := -DONLINE_JUDGE -DDOMJUDGE
+CXXFLAGS := -g -O2 -std=gnu++20 -mno-avx -Wall -pipe
+LDFLAGS := -static
+
+ifeq ($(OS),Windows_NT)
+    EXEEXT := .exe
+else
+    EXEEXT :=
+endif
+
+.PHONY: all
+all: main$(EXEEXT)
+
+%$(EXEEXT): %.cpp Makefile
+    $(CXX) $(CPPFLAGS) $(CXXFLAGS) $< $(LDFLAGS) -o $@
+\end{minted}

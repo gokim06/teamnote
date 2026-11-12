@@ -1,0 +1,15 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{namespace}\PYG{+w}{ }\PYG{n+nn}{io}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{k}{const}\PYG{+w}{ }\PYG{k+kt}{signed}\PYG{+w}{ }\PYG{n}{IS}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{l+m+mi}{20}\PYG{p}{;}
+\PYG{k+kt}{char}\PYG{+w}{ }\PYG{n}{I}\PYG{p}{[}\PYG{n}{IS}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{],}\PYG{o}{*}\PYG{n}{J}\PYG{o}{=}\PYG{n}{I}\PYG{p}{;}
+\PYG{k+kr}{inline}\PYG{+w}{ }\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{daer}\PYG{p}{()\PYGZob{}}\PYG{k}{if}\PYG{p}{(}\PYG{n}{J}\PYG{o}{\PYGZgt{}=}\PYG{n}{I}\PYG{o}{+}\PYG{n}{IS}\PYG{l+m+mi}{\PYGZhy{}64}\PYG{p}{)\PYGZob{}}
+\PYG{k+kt}{char}\PYG{o}{*}\PYG{n}{p}\PYG{o}{=}\PYG{n}{I}\PYG{p}{;}\PYG{k}{do}\PYG{o}{*}\PYG{n}{p}\PYG{o}{++=*}\PYG{n}{J}\PYG{o}{++}\PYG{p}{;}
+\PYG{k}{while}\PYG{p}{(}\PYG{n}{J}\PYG{o}{!=}\PYG{n}{I}\PYG{o}{+}\PYG{n}{IS}\PYG{p}{);}\PYG{n}{p}\PYG{p}{[}\PYG{n}{read}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{n}{p}\PYG{p}{,}\PYG{n}{I}\PYG{o}{+}\PYG{n}{IS}\PYG{o}{\PYGZhy{}}\PYG{n}{p}\PYG{p}{)]}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{n}{J}\PYG{o}{=}\PYG{n}{I}\PYG{p}{;\PYGZcb{}\PYGZcb{}}
+\PYG{k}{template}\PYG{o}{\PYGZlt{}}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{N}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{k}{typename}\PYG{+w}{ }\PYG{n+nc}{T}\PYG{o}{=}\PYG{k+kt}{int}\PYG{o}{\PYGZgt{}}\PYG{k+kr}{inline}\PYG{+w}{ }\PYG{n}{T}\PYG{+w}{ }\PYG{n}{getu}\PYG{p}{()\PYGZob{}}
+\PYG{n}{daer}\PYG{p}{();}\PYG{n}{T}\PYG{+w}{ }\PYG{n}{x}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{k}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{k}{do}\PYG{+w}{ }\PYG{n}{x}\PYG{o}{=}\PYG{n}{x}\PYG{o}{*}\PYG{l+m+mi}{10}\PYG{o}{+*}\PYG{n}{J}\PYG{o}{\PYGZhy{}}\PYG{l+s+sc}{\PYGZsq{}0\PYGZsq{}}\PYG{p}{;}
+\PYG{k}{while}\PYG{p}{(}\PYG{o}{*++}\PYG{n}{J}\PYG{o}{\PYGZgt{}=}\PYG{l+s+sc}{\PYGZsq{}0\PYGZsq{}}\PYG{o}{\PYGZam{}\PYGZam{}++}\PYG{n}{k}\PYG{o}{\PYGZlt{}}\PYG{n}{N}\PYG{p}{);}\PYG{o}{++}\PYG{n}{J}\PYG{p}{;}\PYG{k}{return}\PYG{+w}{ }\PYG{n}{x}\PYG{p}{;\PYGZcb{}}
+\PYG{k}{template}\PYG{o}{\PYGZlt{}}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{N}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{k}{typename}\PYG{+w}{ }\PYG{n+nc}{T}\PYG{o}{=}\PYG{k+kt}{int}\PYG{o}{\PYGZgt{}}\PYG{k+kr}{inline}\PYG{+w}{ }\PYG{n}{T}\PYG{+w}{ }\PYG{n}{geti}\PYG{p}{()\PYGZob{}}
+\PYG{n}{daer}\PYG{p}{();}\PYG{k+kt}{bool}\PYG{+w}{ }\PYG{n}{e}\PYG{o}{=*}\PYG{n}{J}\PYG{o}{==}\PYG{l+s+sc}{\PYGZsq{}\PYGZhy{}\PYGZsq{}}\PYG{p}{;}\PYG{n}{J}\PYG{o}{+=}\PYG{n}{e}\PYG{p}{;}\PYG{k}{return}\PYG{p}{(}\PYG{n}{e}\PYG{o}{?}\PYG{l+m+mi}{\PYGZhy{}1}\PYG{o}{:}\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{o}{*}\PYG{n}{getu}\PYG{o}{\PYGZlt{}}\PYG{n}{N}\PYG{p}{,}\PYG{n}{T}\PYG{o}{\PYGZgt{}}\PYG{p}{();\PYGZcb{}}
+\PYG{k}{struct}\PYG{+w}{ }\PYG{n+nc}{f}\PYG{p}{\PYGZob{}}\PYG{n}{f}\PYG{p}{()\PYGZob{}}\PYG{n}{I}\PYG{p}{[}\PYG{n}{read}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{n}{I}\PYG{p}{,}\PYG{n}{IS}\PYG{p}{)]}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{;\PYGZcb{}\PYGZcb{}}\PYG{n}{flu}\PYG{p}{;}
+\PYG{p}{\PYGZcb{};}
+\end{MintedVerbatim}

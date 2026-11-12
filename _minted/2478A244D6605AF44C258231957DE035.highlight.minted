@@ -1,0 +1,21 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// ans contains the final euler circult}
+\PYG{c+c1}{// In case of an Eulerian trail, add a temporary edge between two odd vertices,}
+\PYG{c+c1}{// and remove it later.}
+\PYG{n}{vector}\PYG{o}{\PYGZlt{}}\PYG{n}{set}\PYG{o}{\PYGZlt{}}\PYG{k+kt}{int}\PYG{o}{\PYGZgt{}\PYGZgt{}}\PYG{+w}{ }\PYG{n}{graph}\PYG{p}{;}
+\PYG{n}{vector}\PYG{o}{\PYGZlt{}}\PYG{k+kt}{int}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{ans}\PYG{p}{;}
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{dfs}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{v}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{k}{while}\PYG{+w}{ }\PYG{p}{(}\PYG{o}{!}\PYG{n}{graph}\PYG{p}{[}\PYG{n}{v}\PYG{p}{].}\PYG{n}{empty}\PYG{p}{())}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{u}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{graph}\PYG{p}{[}\PYG{n}{v}\PYG{p}{].}\PYG{n}{begin}\PYG{p}{();}
+\PYG{n}{graph}\PYG{p}{[}\PYG{n}{u}\PYG{p}{].}\PYG{n}{erase}\PYG{p}{(}\PYG{n}{v}\PYG{p}{);}
+\PYG{n}{graph}\PYG{p}{[}\PYG{n}{v}\PYG{p}{].}\PYG{n}{erase}\PYG{p}{(}\PYG{n}{u}\PYG{p}{);}
+\PYG{n}{dfs}\PYG{p}{(}\PYG{n}{u}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\PYG{n}{ans}\PYG{p}{.}\PYG{n}{push\PYGZus{}back}\PYG{p}{(}\PYG{n}{v}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\PYG{c+c1}{// • Eulerian cycle (undirected): all vertices must have even degree.}
+\PYG{c+c1}{// • Eulerian cycle (directed): every vertex has equal indegree and outdegree.}
+\PYG{c+c1}{// • Eulerian path (undirected): exactly zero or two vertices must have odd degree.}
+\PYG{c+c1}{// • Eulerian path (directed): at most one vertex has out−in = 1 and at most one vertex has in−out = 1.}
+\PYG{c+c1}{// all other vertices must have equal indegree and outdegree.}
+\end{MintedVerbatim}

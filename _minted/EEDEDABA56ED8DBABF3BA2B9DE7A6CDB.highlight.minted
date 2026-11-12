@@ -1,0 +1,18 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/* y축}
+\PYG{c+cm}{// ↑}
+\PYG{c+cm}{// 2 1}
+\PYG{c+cm}{// 4 \PYGZhy{}1 0 →x축}
+\PYG{c+cm}{// 6 7}
+\PYG{c+cm}{// 원점기준각도정렬}
+\PYG{c+cm}{// x축위에있는점이가장먼저, 그리고반시계방향으로}
+\PYG{c+cm}{*/}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n+nf}{QuadrantID}\PYG{p}{(}\PYG{k}{const}\PYG{+w}{ }\PYG{n}{Point}\PYG{+w}{ }\PYG{n}{p}\PYG{p}{)\PYGZob{}}
+\PYG{k}{static}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{arr}\PYG{p}{[}\PYG{l+m+mi}{9}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{6}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{7}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{+w}{ }\PYG{p}{\PYGZcb{};}
+\PYG{k}{return}\PYG{+w}{ }\PYG{n}{arr}\PYG{p}{[}\PYG{n}{Sign}\PYG{p}{(}\PYG{n}{p}\PYG{p}{.}\PYG{n}{x}\PYG{p}{)}\PYG{o}{*}\PYG{l+m+mi}{3}\PYG{o}{+}\PYG{n}{Sign}\PYG{p}{(}\PYG{n}{p}\PYG{p}{.}\PYG{n}{y}\PYG{p}{)}\PYG{o}{+}\PYG{l+m+mi}{4}\PYG{p}{];}
+\PYG{p}{\PYGZcb{}}
+\PYG{n}{sort}\PYG{p}{(}\PYG{n}{points}\PYG{p}{.}\PYG{n}{begin}\PYG{p}{(),}\PYG{+w}{ }\PYG{n}{points}\PYG{p}{.}\PYG{n}{end}\PYG{p}{(),}\PYG{+w}{ }\PYG{p}{[}\PYG{o}{\PYGZam{}}\PYG{p}{](}\PYG{k}{auto}\PYG{+w}{ }\PYG{n}{p1}\PYG{p}{,}\PYG{+w}{ }\PYG{k}{auto}\PYG{+w}{ }\PYG{n}{p2}\PYG{p}{)\PYGZob{}}
+\PYG{k}{if}\PYG{p}{(}\PYG{n}{QuadrantID}\PYG{p}{(}\PYG{n}{p1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{n}{QuadrantID}\PYG{p}{(}\PYG{n}{p2}\PYG{p}{))}\PYG{+w}{ }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{QuadrantID}\PYG{p}{(}\PYG{n}{p1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{QuadrantID}\PYG{p}{(}\PYG{n}{p2}\PYG{p}{);}
+\PYG{k}{else}\PYG{+w}{ }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{p1}\PYG{+w}{ }\PYG{o}{/}\PYG{+w}{ }\PYG{n}{p2}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{// 반시계}
+\PYG{p}{\PYGZcb{});}
+\end{MintedVerbatim}

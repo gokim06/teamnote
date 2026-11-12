@@ -1,0 +1,68 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// Time Complexity: 전처리O(N log N), 쿼리O(log N)}
+\PYG{c+c1}{// sz:서브트리크기, dep:깊이, par:부모, top:체인헤드, in:DFS방문순서(SegTree의인덱스)}
+\PYG{n}{vector}\PYG{o}{\PYGZlt{}}\PYG{k+kt}{int}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{adj}\PYG{p}{[}\PYG{n}{SZ}\PYG{p}{];}\PYG{+w}{ }\PYG{c+c1}{//pv: 방문순서카운터}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{sz}\PYG{p}{[}\PYG{n}{SZ}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{dep}\PYG{p}{[}\PYG{n}{SZ}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{par}\PYG{p}{[}\PYG{n}{SZ}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{top}\PYG{p}{[}\PYG{n}{SZ}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{in}\PYG{p}{[}\PYG{n}{SZ}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{pv}\PYG{p}{;}
+\PYG{c+c1}{// 1. DFS 1: 서브트리크기계산및Heavy Edge를0번으로보냄}
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{dfs\PYGZus{}sz}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{v}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{p}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{n}{sz}\PYG{p}{[}\PYG{n}{v}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{n}{par}\PYG{p}{[}\PYG{n}{v}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{p}\PYG{p}{;}
+\PYG{n}{dep}\PYG{p}{[}\PYG{n}{v}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{dep}\PYG{p}{[}\PYG{n}{p}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{k}{auto}\PYG{+w}{ }\PYG{o}{\PYGZam{}}\PYG{n}{next}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{n}{adj}\PYG{p}{[}\PYG{n}{v}\PYG{p}{])}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{next}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{p}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{continue}\PYG{p}{;}
+\PYG{n}{dfs\PYGZus{}sz}\PYG{p}{(}\PYG{n}{next}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{v}\PYG{p}{);}
+\PYG{n}{sz}\PYG{p}{[}\PYG{n}{v}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+=}\PYG{+w}{ }\PYG{n}{sz}\PYG{p}{[}\PYG{n}{next}\PYG{p}{];}
+\PYG{c+c1}{// 가장무거운자식을adj[v][0]으로스왑(Heavy Edge)}
+\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{sz}\PYG{p}{[}\PYG{n}{next}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{sz}\PYG{p}{[}\PYG{n}{adj}\PYG{p}{[}\PYG{n}{v}\PYG{p}{][}\PYG{l+m+mi}{0}\PYG{p}{]]}\PYG{+w}{ }\PYG{o}{||}\PYG{+w}{ }\PYG{n}{adj}\PYG{p}{[}\PYG{n}{v}\PYG{p}{][}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{p}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{n}{swap}\PYG{p}{(}\PYG{n}{next}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{adj}\PYG{p}{[}\PYG{n}{v}\PYG{p}{][}\PYG{l+m+mi}{0}\PYG{p}{]);}
+\PYG{p}{\PYGZcb{}\PYGZcb{}\PYGZcb{}}
+\PYG{c+c1}{// 2. DFS 2: DFS 순서(in) 부여및Top 설정}
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{dfs\PYGZus{}hld}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{v}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{n}{in}\PYG{p}{[}\PYG{n}{v}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{o}{++}\PYG{n}{pv}\PYG{p}{;}
+\PYG{k}{for}\PYG{+w}{ }\PYG{p}{(}\PYG{k}{auto}\PYG{+w}{ }\PYG{n}{next}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{n}{adj}\PYG{p}{[}\PYG{n}{v}\PYG{p}{])}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{next}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{par}\PYG{p}{[}\PYG{n}{v}\PYG{p}{])}\PYG{+w}{ }\PYG{k}{continue}\PYG{p}{;}
+\PYG{c+c1}{// Heavy Edge(0번)면Top 유지, 아니면자신이새로운Top}
+\PYG{n}{top}\PYG{p}{[}\PYG{n}{next}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{next}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{n}{adj}\PYG{p}{[}\PYG{n}{v}\PYG{p}{][}\PYG{l+m+mi}{0}\PYG{p}{])}\PYG{+w}{ }\PYG{o}{?}\PYG{+w}{ }\PYG{n}{top}\PYG{p}{[}\PYG{n}{v}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{n}{next}\PYG{p}{;}
+\PYG{n}{dfs\PYGZus{}hld}\PYG{p}{(}\PYG{n}{next}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}\PYGZcb{}}
+\PYG{c+c1}{// 3. 경로쿼리(u, v 경로의합/최대값등)}
+\PYG{k+kt}{long}\PYG{+w}{ }\PYG{k+kt}{long}\PYG{+w}{ }\PYG{n+nf}{query\PYGZus{}path}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{u}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{v}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{k+kt}{long}\PYG{+w}{ }\PYG{k+kt}{long}\PYG{+w}{ }\PYG{n}{ret}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k}{while}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{top}\PYG{p}{[}\PYG{n}{u}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{n}{top}\PYG{p}{[}\PYG{n}{v}\PYG{p}{])}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{dep}\PYG{p}{[}\PYG{n}{top}\PYG{p}{[}\PYG{n}{u}\PYG{p}{]]}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{dep}\PYG{p}{[}\PYG{n}{top}\PYG{p}{[}\PYG{n}{v}\PYG{p}{]])}\PYG{+w}{ }\PYG{n}{swap}\PYG{p}{(}\PYG{n}{u}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{v}\PYG{p}{);}
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{st}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{top}\PYG{p}{[}\PYG{n}{u}\PYG{p}{];}
+\PYG{n}{ret}\PYG{+w}{ }\PYG{o}{+=}\PYG{+w}{ }\PYG{n}{seg\PYGZus{}query}\PYG{p}{(}\PYG{n}{in}\PYG{p}{[}\PYG{n}{st}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{in}\PYG{p}{[}\PYG{n}{u}\PYG{p}{]);}\PYG{+w}{ }\PYG{c+c1}{// 체인구간쿼리}
+\PYG{n}{u}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{par}\PYG{p}{[}\PYG{n}{st}\PYG{p}{];}
+\PYG{p}{\PYGZcb{}}
+\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{dep}\PYG{p}{[}\PYG{n}{u}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{dep}\PYG{p}{[}\PYG{n}{v}\PYG{p}{])}\PYG{+w}{ }\PYG{n}{swap}\PYG{p}{(}\PYG{n}{u}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{v}\PYG{p}{);}
+\PYG{c+c1}{// [Type A] 정점가중치(Vertex Weight)}
+\PYG{n}{ret}\PYG{+w}{ }\PYG{o}{+=}\PYG{+w}{ }\PYG{n}{seg\PYGZus{}query}\PYG{p}{(}\PYG{n}{in}\PYG{p}{[}\PYG{n}{u}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{in}\PYG{p}{[}\PYG{n}{v}\PYG{p}{]);}
+\PYG{c+c1}{// [Type B] 간선가중치(Edge Weight)}
+\PYG{c+c1}{// LCA(u)는경로에포함되지않으므로in[u] + 1 부터시작}
+\PYG{c+c1}{// if (u != v) ret += seg\PYGZus{}query(in[u] + 1, in[v]);}
+\PYG{k}{return}\PYG{+w}{ }\PYG{n}{ret}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\PYG{c+c1}{// 4\PYGZhy{}1. 정점업데이트(u의값을val로)}
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{update\PYGZus{}vertex}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{u}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{val}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{n}{seg\PYGZus{}update}\PYG{p}{(}\PYG{n}{in}\PYG{p}{[}\PYG{n}{u}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{val}\PYG{p}{);}\PYG{+w}{ }\PYG{p}{\PYGZcb{}}
+\PYG{c+c1}{// 4\PYGZhy{}2. 간선업데이트(u\PYGZhy{}v 간선값을val로)}
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{update\PYGZus{}edge}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{u}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{v}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{val}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{c+c1}{// 둘중깊이가더깊은쪽이자식노드이며, 간선값을들고있음}
+\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{dep}\PYG{p}{[}\PYG{n}{u}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{dep}\PYG{p}{[}\PYG{n}{v}\PYG{p}{])}\PYG{+w}{ }\PYG{n}{seg\PYGZus{}update}\PYG{p}{(}\PYG{n}{in}\PYG{p}{[}\PYG{n}{v}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{val}\PYG{p}{);}
+\PYG{k}{else}\PYG{+w}{ }\PYG{n}{seg\PYGZus{}update}\PYG{p}{(}\PYG{n}{in}\PYG{p}{[}\PYG{n}{u}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{val}\PYG{p}{);}\PYG{+w}{ }\PYG{p}{\PYGZcb{}}
+\PYG{c+c1}{// 5. 초기화및실행예시}
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{init\PYGZus{}hld}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{root}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{n}{pv}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{dfs\PYGZus{}sz}\PYG{p}{(}\PYG{n}{root}\PYG{p}{);}
+\PYG{n}{top}\PYG{p}{[}\PYG{n}{root}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{root}\PYG{p}{;}
+\PYG{n}{dfs\PYGZus{}hld}\PYG{p}{(}\PYG{n}{root}\PYG{p}{);}
+\PYG{c+c1}{// 1. 정점가중치인경우:}
+\PYG{c+c1}{//}
+\PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{\PYGZlt{}=}\PYG{n}{N}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{i}\PYG{o}{++}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{seg\PYGZus{}update}\PYG{p}{(}\PYG{n}{in}\PYG{p}{[}\PYG{n}{i}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{Cost}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]);}
+\PYG{c+c1}{// 2. 간선가중치인경우(입력이u, v, w): 트리에는일단간선만넣음}
+\PYG{c+c1}{//}
+\PYG{c+c1}{// dfs가다끝난뒤에수행해야dep 비교가능}
+\PYG{c+c1}{//}
+\PYG{k}{if}\PYG{p}{(}\PYG{n}{dep}\PYG{p}{[}\PYG{n}{u}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{n}{dep}\PYG{p}{[}\PYG{n}{v}\PYG{p}{])}\PYG{+w}{ }\PYG{n}{seg\PYGZus{}update}\PYG{p}{(}\PYG{n}{in}\PYG{p}{[}\PYG{n}{v}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{w}\PYG{p}{);}\PYG{+w}{ }\PYG{c+c1}{//자식에게가중치박아넣음}
+\PYG{c+c1}{//}
+\PYG{k}{else}\PYG{+w}{ }\PYG{n}{seg\PYGZus{}update}\PYG{p}{(}\PYG{n}{in}\PYG{p}{[}\PYG{n}{u}\PYG{p}{],}\PYG{+w}{ }\PYG{n}{w}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}

@@ -1,0 +1,18 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n+nv}{CXX}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }g++
+\PYG{n+nv}{CPPFLAGS}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYGZhy{}DONLINE\PYGZus{}JUDGE\PYG{+w}{ }\PYGZhy{}DDOMJUDGE
+\PYG{n+nv}{CXXFLAGS}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYGZhy{}g\PYG{+w}{ }\PYGZhy{}O2\PYG{+w}{ }\PYGZhy{}std\PYG{o}{=}gnu++20\PYG{+w}{ }\PYGZhy{}mno\PYGZhy{}avx\PYG{+w}{ }\PYGZhy{}Wall\PYG{+w}{ }\PYGZhy{}pipe
+\PYG{n+nv}{LDFLAGS}\PYG{+w}{ }\PYG{o}{:=}\PYG{+w}{ }\PYGZhy{}static
+
+\PYG{c+cp}{ifeq (\PYGZdl{}(OS),Windows\PYGZus{}NT)}
+\PYG{+w}{    }EXEEXT\PYG{+w}{ }:\PYG{o}{=}\PYG{+w}{ }.exe
+\PYG{c+cp}{else}
+\PYG{+w}{    }EXEEXT\PYG{+w}{ }:\PYG{o}{=}
+\PYG{c+cp}{endif}
+
+\PYG{n+nf}{.PHONY}\PYG{o}{:}\PYG{+w}{ }\PYG{n}{all}
+\PYG{n+nf}{all}\PYG{o}{:}\PYG{+w}{ }\PYG{n}{main}\PYG{k}{\PYGZdl{}(}\PYG{n+nv}{EXEEXT}\PYG{k}{)}
+
+\PYG{n+nf}{\PYGZpc{}\PYGZdl{}(EXEEXT)}\PYG{o}{:}\PYG{+w}{ }\PYGZpc{}.\PYG{n}{cpp} \PYG{n}{Makefile}
+\PYG{+w}{    }\PYG{k}{\PYGZdl{}(}CXX\PYG{k}{)}\PYG{+w}{ }\PYG{k}{\PYGZdl{}(}CPPFLAGS\PYG{k}{)}\PYG{+w}{ }\PYG{k}{\PYGZdl{}(}CXXFLAGS\PYG{k}{)}\PYG{+w}{ }\PYGZdl{}\PYGZlt{}\PYG{+w}{ }\PYG{k}{\PYGZdl{}(}LDFLAGS\PYG{k}{)}\PYG{+w}{ }\PYGZhy{}o\PYG{+w}{ }\PYG{n+nv}{\PYGZdl{}@}
+\end{MintedVerbatim}
