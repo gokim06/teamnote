@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1794500241.60362 "main.tex" "pdf/teamnote.pdf" "teamnote" 1794500247.66738 0
+["pdflatex"] 1794670887.60629 "main.tex" "pdf/teamnote.pdf" "teamnote" 1794670893.38692 0
   "c:/Users/gokim/.texlive2026/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk" 1794496314 9268 ada24a21b5fa5c64c01b0b2a6566db71 ""
   "c:/Users/gokim/.texlive2026/texmf-var/fonts/pk/ljfour/jknappen/ec/tctt0800.600pk" 1794299512 7392 7330d873496eeac22299d0537a8a0762 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1794298464 1536 05df9db6aeccc4eea94fec15c9024f79 ""
@@ -455,7 +455,7 @@
   "image/kiana.jpeg" 1794497978 38670 0954e43cd350edf5aa3f52dfe93cb318 ""
   "image/nojomi.jpg" 1794497170 1383288 b63ad76a5bde4474f5a9e9b23912e88d ""
   "image/prana.jpeg" 1794496636 40267 f946e48679c039e498c0998b05f78387 ""
-  "main.tex" 1794500215 11528 48410859a2c8b42d33a00edc0bf53621 ""
+  "main.tex" 1794670746 11528 48410859a2c8b42d33a00edc0bf53621 ""
   "pdf/_minted/013D89F7D35F4984C3EA904E3036530B.highlight.minted" 1794299929 2777 d0e5fbfb136d3d129e0c126778d77cfa ""
   "pdf/_minted/0444FC1156F2AA42B2B1C1888CCB2B4F.highlight.minted" 1794299929 6111 f6f4196a14aad6a7d5aa6790c619b0a2 ""
   "pdf/_minted/0531E5D440C88E1FD1532CCF4522FE9A.highlight.minted" 1794500232 1238 2480a77cc7a0e5991ade96c4d647eeea ""
@@ -514,9 +514,9 @@
   "pdf/_minted/FCA4642D94AF55E9C854D1A6A2A34A26.highlight.minted" 1794299929 4235 206131a4757fd37859b64dc6da4d53df ""
   "pdf/_minted/_AD298020C715061E569F61B63BE1317B.index.minted" 1794500234 3465 e517aaf5ce03bac7b1c737fd8e691a28 ""
   "pdf/_minted/perldoc.style.minted" 1794299929 6176 9e1bc3196ac392a9373aed3b2b942df0 ""
-  "pdf/teamnote.aux" 1794500246 8671 a0d5b95f502abc8a63cfd08fde3b2f13 "pdflatex"
-  "pdf/teamnote.toc" 1794500246 5271 d2d3800237b66a8792a9efe1b02f53e4 "pdflatex"
-  "teamnote.sty" 1794299473 2720 8aca34ce86020a88623a0dd282ad339c ""
+  "pdf/teamnote.aux" 1794670891 8671 a0d5b95f502abc8a63cfd08fde3b2f13 "pdflatex"
+  "pdf/teamnote.toc" 1794670891 5271 d2d3800237b66a8792a9efe1b02f53e4 "pdflatex"
+  "teamnote.sty" 1794670852 2720 3b97682413eede85424e80a7693078c1 ""
   (generated)
   "pdf/teamnote.aux"
   "pdf/teamnote.fls"

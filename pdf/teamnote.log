@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.11.10)  13 NOV 2026 01:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.11.10)  15 NOV 2026 00:41
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -813,14 +813,14 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: landscape 
-* h-part:(L,W,R)=(2.84544pt, 839.35596pt, 2.84544pt)
+* h-part:(L,W,R)=(14.22636pt, 827.97504pt, 2.84544pt)
 * v-part:(T,H,B)=(8.5359pt, 586.12653pt, 2.84544pt)
 * \paperwidth=845.04684pt
 * \paperheight=597.50787pt
-* \textwidth=839.35596pt
+* \textwidth=827.97504pt
 * \textheight=586.12653pt
-* \oddsidemargin=-69.42455pt
-* \evensidemargin=-69.42455pt
+* \oddsidemargin=-58.04362pt
+* \evensidemargin=-58.04362pt
 * \topmargin=-75.73409pt
 * \headheight=12.0pt
 * \headsep=0.0pt
@@ -855,12 +855,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \pydata@fh@0=\write6
 \openout6 = `_AD298020C715061E569F61B63BE1317B.data.minted'.
 
-runsystem(latexminted config  --timestamp 20261113011721 AD298020C715061E569F61
+runsystem(latexminted config  --timestamp 20261115004127 AD298020C715061E569F61
 B63BE1317B)...executed.
 
 
 (pdf/_AD298020C715061E569F61B63BE1317B.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20261113011721 AD298020C715061E5
+runsystem(latexminted cleanconfig  --timestamp 20261115004127 AD298020C715061E5
 69F61B63BE1317B)...executed.
 
 
@@ -1214,1445 +1214,1445 @@ Missing character: There is no ^^R in font nanumgtm22!
 File: image/arona.jpeg Graphic file (type jpg)
 <use image/arona.jpeg>
 Package pdftex.def Info: image/arona.jpeg  used on input line 193.
-(pdftex.def)             Requested size: 290.27332pt x 290.28055pt.
+(pdftex.def)             Requested size: 286.29001pt x 286.29604pt.
 <image/prana.jpeg, id=188, 469.755pt x 656.4525pt>
 File: image/prana.jpeg Graphic file (type jpg)
 <use image/prana.jpeg>
 Package pdftex.def Info: image/prana.jpeg  used on input line 197.
-(pdftex.def)             Requested size: 290.27332pt x 405.63408pt.
+(pdftex.def)             Requested size: 286.29001pt x 400.07484pt.
 <image/hikari.jpg, id=189, 250.9375pt x 250.9375pt>
 File: image/hikari.jpg Graphic file (type jpg)
 <use image/hikari.jpg>
 Package pdftex.def Info: image/hikari.jpg  used on input line 201.
-(pdftex.def)             Requested size: 207.33899pt x 207.34761pt.
+(pdftex.def)             Requested size: 204.49376pt x 204.50267pt.
 <image/nojomi.jpg, id=190, 825.0825pt x 1204.5pt>
 File: image/nojomi.jpg Graphic file (type jpg)
 <use image/nojomi.jpg>
 Package pdftex.def Info: image/nojomi.jpg  used on input line 205.
-(pdftex.def)             Requested size: 248.80931pt x 363.20909pt.
+(pdftex.def)             Requested size: 245.395pt x 358.22833pt.
  [19 <./image/arona.jpeg> <./image/prana.jpeg>]
 <image/elysia.jpg, id=195, 250.9375pt x 250.9375pt>
 File: image/elysia.jpg Graphic file (type jpg)
 <use image/elysia.jpg>
 Package pdftex.def Info: image/elysia.jpg  used on input line 209.
-(pdftex.def)             Requested size: 207.33899pt x 207.34761pt.
+(pdftex.def)             Requested size: 204.49376pt x 204.50267pt.
 <image/kiana.jpeg, id=196, 447.6725pt x 689.57625pt>
 File: image/kiana.jpeg Graphic file (type jpg)
 <use image/kiana.jpeg>
 Package pdftex.def Info: image/kiana.jpeg  used on input line 213.
-(pdftex.def)             Requested size: 331.74364pt x 511.01497pt.
+(pdftex.def)             Requested size: 327.19125pt x 504.00728pt.
  [20 <./image/hikari.jpg> <./image/nojomi.jpg> <./image/elysia.jpg>]
 <image/doro.png, id=200, 156.585pt x 140.77594pt>
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 File: image/doro.png Graphic file (type png)
 <use image/doro.png>
 Package pdftex.def Info: image/doro.png  used on input line 223.
-(pdftex.def)             Requested size: 22.80424pt x 20.50113pt.
+(pdftex.def)             Requested size: 22.49132pt x 20.21973pt.
 
-Overfull \hbox (11.8543pt too wide) in paragraph at lines 224--225
+Overfull \hbox (11.76933pt too wide) in paragraph at lines 224--225
  [] 
  []
 
@@ -2789,7 +2789,7 @@ type1/public/nanumtype1/nanummjmd4.pfb><c:/texlive/2026/texmf-dist/fonts/type1/
 public/nanumtype1/nanummjmd5.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public
 /nanumtype1/nanummjmd6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/nanum
 type1/nanummjmd7.pfb>
-Output written on pdf/teamnote.pdf (21 pages, 6148844 bytes).
+Output written on pdf/teamnote.pdf (21 pages, 6148846 bytes).
 PDF statistics:
  716 PDF objects out of 1000 (max. 8388607)
  429 compressed objects within 5 object streams
